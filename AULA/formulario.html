@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form>
+        <label for="nome">NOME</label>
+        <br>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" required autofocus >
+        <br><br>
+
+        <label for="email">EMAIL</label>
+        <br>
+        <input type="email" name="email" placeholder="exemplo@exemplo.com" required>
+        <br><br>
+
+        <label for="senha">SENHA</label>
+        <br>
+        <input type="password" name="senha" placeholder="***************************" required>
+        <br><br><br>
+
+        <label for="informacoes">INFORMARÇÔES</label>
+        <br>
+        <textarea name="informacoes" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+        <br>
+
+        <label for="sexo">SEXO</label>
+        <br>
+        <input type="radio" name="sexo" value="masculino">
+        <label>Masculino</label>
+        <input type="radio" name="sexo" value="feminino">
+        <label>Feminino</label>
+        <input type="radio" name="sexo" value="celta quatro portas">
+        <label>Celta quatro portas</label>
+        <br><br>
+
+        <input type="checkbox" name="termos1">
+        <label for="termos1">Aceito receber emails</label>
+        <br>
+        <input type="checkbox" name="termos2">
+        <label for="termos2">Aceito receber ligações</label>
+        <br><br>
+
+        <label for="barrinha">Gostou do site</label>
+        <input type="range" name="barrinha">
+        <br><br>
+
+        <label for="nascimento">DATA DE NASCIMENTO</label>
+        <br>
+        <input type="date" name="nascimento">
+        <br><br>
+
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>

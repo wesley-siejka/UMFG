@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de clientes</h1>
+
+    <div>
+        <label for="nome">NOME</label>
+        <br>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" required autofocus >
+        <br><br>
+
+        <label for="email">EMAIL</label>
+        <br>
+        <input type="email" name="email" placeholder="exemplo@exemplo.com" required>
+        <br><br>
+
+        <label for="CPF">CPF</label>
+        <br>
+        <input type="number" name="CPF" placeholder="333.333.333-33" required>
+        <br><br>
+
+        <label for="telefone">TELEFONE</label>
+        <br>
+        <input type="number" name="telefone" placeholder="44 4444-4444">
+        <br><br><br>
+        
+        <label for="sexo">SEXO</label>
+        <br>
+        <input type="radio" name="sexo" value="masculino">
+        <label>Masculino</label>
+        <input type="radio" name="sexo" value="feminino">
+        <label>Feminino</label>
+        <input type="radio" name="sexo" value="celta quatro portas">
+        <label>Celta quatro portas</label>
+        <br><br>
+
+        <label>Possui alguma restrição alimentar</label>
+        <br>
+        <input type="checkbox" name="termo1">
+        <label for="termo1">Intolerancia a lactose</label>
+        <br>
+        <input type="checkbox" name="termo2">
+        <label for="termo2">Intolerancia a gluten</label>
+        <br>
+        <label for="outro">Outro</label>
+        <input type="text" name="outro">
+        <br><br>
+
+        <label for="informacoes">Descrição</label>
+        <br>
+        <textarea name="informacoes" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+        <br><br>
+
+        <label for="barrinha">Humor do cliente</label>
+        <input type="range" name="barrinha">
+        <br><br>
+    </div>
+    
+</body>
+</html>
